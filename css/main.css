@@ -28,10 +28,10 @@ body {
   padding-right: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .container {
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    padding-left: 3.9rem;
+    padding-right: 4rem;
   }
 }
 
@@ -418,7 +418,7 @@ template {
   padding: 1.5rem 2.9rem 1.5rem 3.1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .btn {
     display: block;
     width: 16rem;
@@ -449,7 +449,7 @@ template {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .btn--speaker--continued {
     width: 16.2rem;
     margin: 0;
@@ -492,9 +492,10 @@ template {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .hamburger {
     display: inline-block;
+    margin-right: 4.2rem;
   }
 }
 
@@ -552,14 +553,6 @@ template {
           transform: rotate(-45deg);
 }
 
-@media only screen and (max-width: 600px) {
-  .shop3 {
-    width: 32.7rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .shop3__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -569,15 +562,6 @@ template {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-  .shop3__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .shop3__left {
   width: 35rem;
   background-color: #F1F1F1;
@@ -585,14 +569,10 @@ template {
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop3__left {
-    width: 32.7rem;
+    width: 22.3rem;
     height: 16.5rem;
-  }
-  .shop3__left:nth-child(2) {
-    margin-top: 6.8rem;
-    margin-bottom: 6.8rem;
   }
 }
 
@@ -604,7 +584,7 @@ template {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop3__left__img {
     width: 7.992rem;
     height: 10.4rem;
@@ -622,7 +602,7 @@ template {
   padding-top: 11.6rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop3__heading {
     padding-top: 8.8rem;
   }
@@ -639,6 +619,12 @@ template {
   margin: 0 auto;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .shop3__all {
+    margin-top: 1.7rem;
+  }
 }
 
 .shop3__all__text {
@@ -676,13 +662,12 @@ template {
   background-position: calc(50% + 231px);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .hero__section {
-    background-image: url(../../images/responsive__mobile__img1.png);
+    background-image: url(../../images/responsive__img.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center top -1.5rem;
-    min-height: 60rem;
+    background-position: center;
   }
 }
 
@@ -699,14 +684,11 @@ template {
           align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .header__top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
@@ -746,9 +728,16 @@ template {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .header__icon {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header__right__link {
+    display: inline-block;
+    margin-left: auto;
   }
 }
 
@@ -765,7 +754,7 @@ template {
   opacity: 0.2;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .header__line {
     margin-top: 3.2rem;
   }
@@ -805,11 +794,9 @@ template {
   margin-top: 9rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .modal3__content {
     width: 100%;
-    height: 75rem;
-    padding: 8.4rem 2.4rem 3.5rem 2.4rem;
   }
 }
 
@@ -857,6 +844,12 @@ template {
   margin-top: 9.8rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .header__headphones__heading {
+    margin-top: 10.5rem;
+  }
+}
+
 .header__speakers {
   background-color: #000000;
   padding-top: 3.2rem;
@@ -875,6 +868,12 @@ template {
   margin-top: 9.8rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .header__speakers__heading {
+    margin-top: 10.5rem;
+  }
+}
+
 .header__earphones {
   background-color: #000000;
   padding-top: 3.2rem;
@@ -891,6 +890,12 @@ template {
   color: #FFFFFF;
   margin: 0;
   margin-top: 9.8rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .header__earphones__heading {
+    margin-top: 10.5rem;
+  }
 }
 
 .header__headphones1 {
@@ -916,12 +921,6 @@ template {
   padding-bottom: 4.8rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .footer {
-    padding-bottom: 3.8rem;
-  }
-}
-
 .footer__line {
   width: 10.1rem;
   height: 4px;
@@ -929,11 +928,9 @@ template {
   margin-bottom: 7.1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__line {
-    margin-bottom: 4.8rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 5.6rem;
   }
 }
 
@@ -952,20 +949,20 @@ template {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__middle .header__icon {
     margin: 0;
-    margin-top: 4.8rem;
+    margin-top: 3.2rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__middle {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    margin-bottom: 3.2rem;
   }
 }
 
@@ -981,11 +978,19 @@ template {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .footer__bottom {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
 .footer__bottom__left__svg {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__bottom__left__svg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -993,9 +998,6 @@ template {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4.8rem;
   }
 }
 
@@ -1010,11 +1012,10 @@ template {
   margin-bottom: 5.6rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__bottom__left__paragraph {
-    max-width: 32.7rem;
-    text-align: center;
-    margin-bottom: 4.8rem;
+    max-width: 67rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -1027,57 +1028,29 @@ template {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__bottom__left__icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .footer__bottom__left {
-    width: 32.7rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer__bottom__right {
     display: none;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .footer--icons .header__icon__list {
-    margin-right: 0;
-    margin-bottom: 1.6rem;
-  }
-}
-
-@media only screen and (max-width: 600px) and (max-width: 600px) {
-  .footer--icons .header__icon__list:last-child {
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .footer--icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
   }
 }
 
@@ -1760,12 +1733,11 @@ input[type="__password"]::placeholder {
   margin-top: 12.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .product {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10.8rem;
   }
 }
 
@@ -1780,7 +1752,7 @@ input[type="__password"]::placeholder {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .product__text {
     text-align: center;
   }
@@ -1798,13 +1770,11 @@ input[type="__password"]::placeholder {
   margin-bottom: 2.4rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .product__heading {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 3.6rem;
-    line-height: 4.0rem;
   }
 }
 
@@ -1819,13 +1789,11 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .product__paragraph {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
   }
 }
 
@@ -1833,9 +1801,9 @@ input[type="__password"]::placeholder {
   margin-bottom: 16.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop {
-    margin-bottom: 12rem;
+    margin-bottom: 9.6rem;
   }
 }
 
@@ -1848,15 +1816,6 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-  .shop__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .shop__left {
   width: 35rem;
   background-color: #F1F1F1;
@@ -1865,19 +1824,10 @@ input[type="__password"]::placeholder {
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop__left {
-    width: 32.7rem;
-    height: 16.5rem;
-    margin-top: 6.8rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .shop__left:nth-child(1) {
-    margin-top: 9.8rem;
+    width: 21.3rem;
+    margin-top: 14.8rem;
   }
 }
 
@@ -1889,7 +1839,7 @@ input[type="__password"]::placeholder {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop__left__img {
     width: 7.992rem;
     height: 10.4rem;
@@ -1907,7 +1857,7 @@ input[type="__password"]::placeholder {
   padding-top: 11.6rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .shop__heading {
     font-size: 1.5rem;
     line-height: 2.0rem;
@@ -1930,6 +1880,12 @@ input[type="__password"]::placeholder {
   padding-bottom: 3rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .shop__all {
+    margin-top: 1.7rem;
+  }
+}
+
 .shop__all__text {
   font-weight: bold;
   font-size: 1.3rem;
@@ -1941,6 +1897,14 @@ input[type="__password"]::placeholder {
   opacity: 0.5;
   margin-right: 1.3rem;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .shop__all__text {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+  }
 }
 
 .shop__all__text:active {
@@ -1964,13 +1928,13 @@ input[type="__password"]::placeholder {
   background-position: bottom left 11.7rem,center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker {
-    max-width: 32.7rem;
-    min-height: 60rem;
-    background-image: url(../../images/mobile__img2x3.png), url(../../images/responsive__img2x4-1.png);
+    min-height: 72rem;
+    max-width: 68.9rem;
+    background-image: url(../../images/responsive__img2.png), url(../../images/responsive__img1.png);
     background-repeat: no-repeat;
-    background-size: 17.25rem 20.7rem,32.7rem 60rem;
+    background-size: 19.7rem 23.7rem,68.9rem 72.0rem;
     background-position: center top 5.2rem,center;
   }
 }
@@ -1982,9 +1946,9 @@ input[type="__password"]::placeholder {
   margin-right: 9.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker__right {
-    padding-top: 29.6rem;
+    padding-top: 35.3rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2000,11 +1964,8 @@ input[type="__password"]::placeholder {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker__heading {
-    max-width: 17.5rem;
-    font-size: 3.6rem;
-    line-height: 4.0rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -2023,12 +1984,11 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker__text {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2.4rem;
   }
 }
 
@@ -2041,13 +2001,13 @@ input[type="__password"]::placeholder {
   background-position: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker__continued {
-    margin-top: 2.4rem;
+    margin-top: 3.2rem;
     min-height: 32rem;
-    background-image: url(../../images/mobile__img2x4.png);
+    background-image: url(../../images/responsive__img3.png);
     background-repeat: no-repeat;
-    background-size: 32.7rem 32rem;
+    background-size: 68.9rem 32rem;
     background-position: center;
   }
 }
@@ -2067,10 +2027,10 @@ input[type="__password"]::placeholder {
   padding-left: 9.6rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .speaker__continued__left {
     padding-top: 10.1rem;
-    padding-left: 2.4rem;
+    padding-left: 6.2rem;
   }
 }
 
@@ -2078,9 +2038,9 @@ input[type="__password"]::placeholder {
   margin-top: 4.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .earphones {
-    margin-top: 2.4rem;
+    margin-top: 3.2rem;
   }
 }
 
@@ -2093,27 +2053,15 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-  .earphones__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .earphones__img {
   width: 54rem;
   height: 32rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .earphones__img {
-    width: 32.7rem;
-    height: 20rem;
+    width: 33rem;
+    height: 32rem;
   }
 }
 
@@ -2127,12 +2075,9 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .earphones__heading {
     width: 24.7rem;
-    font-size: 2.8rem;
-    line-height: 3.8rem;
-    letter-spacing: 2px;
   }
 }
 
@@ -2144,12 +2089,11 @@ input[type="__password"]::placeholder {
   padding: 10.1rem 0rem 10.1rem 9.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .earphones__right {
-    margin-top: 2.4rem;
-    padding: 4.1rem 5.8rem 4.1rem 2.4rem;
-    width: 32.7rem;
-    height: 20rem;
+    padding: 10.1rem 5.3rem 10.1rem 4.3rem;
+    width: 33rem;
+    height: 32rem;
   }
 }
 
@@ -2158,10 +2102,10 @@ input[type="__password"]::placeholder {
   margin-bottom: 20rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio {
-    margin-top: 12rem;
-    margin-bottom: 12rem;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
   }
 }
 
@@ -2177,7 +2121,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2189,9 +2133,9 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio__container__left {
-    margin-top: 4rem;
+    margin-top: 6.3rem;
   }
 }
 
@@ -2205,11 +2149,9 @@ input[type="__password"]::placeholder {
   color: #000000;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio__heading {
-    font-size: 2.8rem;
-    line-height: 3.8rem;
-    max-width: 32.7rem;
+    max-width: 57.3rem;
     text-align: center;
   }
 }
@@ -2229,22 +2171,28 @@ input[type="__password"]::placeholder {
   margin-top: 3.2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio__text {
-    max-width: 32.7rem;
+    max-width: 57.3rem;
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .the__best__audio__img {
-    width: 32.7rem;
+    width: 68.9rem;
     height: 30rem;
   }
 }
 
 .headphones {
   padding-top: 16rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones {
+    padding-top: 12rem;
+  }
 }
 
 .headphones__icon {
@@ -2263,6 +2211,18 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .headphones__icon__list:nth-child(2) {
   margin-top: 16rem;
   margin-bottom: 16rem;
@@ -2270,6 +2230,30 @@ input[type="__password"]::placeholder {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .headphones__icon__list__left1 {
@@ -2280,9 +2264,24 @@ input[type="__password"]::placeholder {
   padding: 6.5rem 9.5rem 10.8rem 9.5rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left1 {
+    width: 100%;
+    height: 35.2rem;
+    padding: 4.1rem 23.4rem 6.8rem 23.5rem;
+  }
+}
+
 .headphones__icon__list__left1__img1 {
   width: 34.9rem;
   height: 38.6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left1__img1 {
+    width: 22rem;
+    height: 24.3rem;
+  }
 }
 
 .headphones__icon__list__left2 {
@@ -2293,9 +2292,24 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 12.2rem 10.9rem 12.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left2 {
+    width: 100%;
+    height: 35.2rem;
+    padding: 4.1rem 25.716rem 8.6rem 25.895rem;
+  }
+}
+
 .headphones__icon__list__left2__img2 {
   width: 29.6rem;
   height: 38.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left2__img2 {
+    width: 17.289rem;
+    height: 22.5rem;
+  }
 }
 
 .headphones__icon__list__left3 {
@@ -2306,9 +2320,31 @@ input[type="__password"]::placeholder {
   padding: 8.3rem 8.35rem 8.8rem 8.35rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left3 {
+    width: 100%;
+    height: 35.2rem;
+    padding: 4.1rem 23.564rem 8.6rem 23.763rem;
+  }
+}
+
 .headphones__icon__list__left3__img3 {
   width: 37.2rem;
   height: 38.9rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__left3__img3 {
+    width: 21.574rem;
+    height: 22.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__right {
+    width: 100%;
+    margin-top: 5.2rem;
+  }
 }
 
 .headphones__icon__list__right__text {
@@ -2318,6 +2354,12 @@ input[type="__password"]::placeholder {
   letter-spacing: 1.0rem;
   text-transform: uppercase;
   color: #D87D4A;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__right__text {
+    text-align: center;
+  }
 }
 
 .headphones__icon__list__right__heading {
@@ -2332,6 +2374,14 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__right__heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .headphones__icon__list__right__paragraph {
   max-width: 44.5rem;
   font-weight: 500;
@@ -2343,8 +2393,23 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones__icon__list__right__paragraph {
+    max-width: 57.2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .shop2 {
   margin-top: 24rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .shop2 {
+    margin-top: 17.2rem;
+  }
 }
 
 .shop2__container {
@@ -2363,12 +2428,25 @@ input[type="__password"]::placeholder {
   position: relative;
 }
 
+@media only screen and (max-width: 900px) {
+  .shop2__left {
+    width: 21.3rem;
+  }
+}
+
 .shop2__left__img {
   position: absolute;
   top: 0;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 900px) {
+  .shop2__left__img {
+    width: 7.992rem;
+    height: 10.4rem;
+  }
 }
 
 .shop2__heading {
@@ -2382,6 +2460,12 @@ input[type="__password"]::placeholder {
   padding-top: 11.6rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .shop2__heading {
+    padding-top: 8.8rem;
+  }
+}
+
 .shop2__all {
   max-width: 5.76rem;
   display: -webkit-box;
@@ -2393,6 +2477,12 @@ input[type="__password"]::placeholder {
   margin: 0 auto;
   margin-top: 1.5rem;
   padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .shop2__all {
+    margin-top: 1.7rem;
+  }
 }
 
 .shop2__all__text {
@@ -2426,6 +2516,13 @@ input[type="__password"]::placeholder {
   margin-bottom: 16rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .the__best__audio2 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+}
+
 .the__best__audio2__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2438,6 +2535,25 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__container__left {
+    width: 100%;
+    margin-top: 6.3rem;
+  }
+}
+
 .the__best__audio2__heading {
   max-width: 44.5rem;
   font-weight: bold;
@@ -2446,6 +2562,15 @@ input[type="__password"]::placeholder {
   letter-spacing: 1.42857px;
   text-transform: uppercase;
   color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__heading {
+    max-width: 57.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .the__best__audio2__heading__span {
@@ -2463,12 +2588,41 @@ input[type="__password"]::placeholder {
   margin-top: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__text {
+    max-width: 57.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__img {
+    display: none;
+  }
+}
+
 .the__best__audio2__img2x {
   display: none;
 }
 
+@media only screen and (max-width: 900px) {
+  .the__best__audio2__img2x {
+    width: 68.9rem;
+    height: 30rem;
+    display: inline-block;
+  }
+}
+
 .speakers {
   padding-top: 16rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers {
+    padding-top: 12rem;
+  }
 }
 
 .speakers__icon {
@@ -2487,12 +2641,34 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .speakers__icon__list:nth-child(2) {
   margin-top: 16rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 13.5rem;
+  }
 }
 
 .speakers__icon__list__left1 {
@@ -2503,9 +2679,24 @@ input[type="__password"]::placeholder {
   padding: 9.65rem 12.426rem 11.35rem 12.45rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__left1 {
+    width: 100%;
+    height: 35.2rem;
+    padding: 4.05rem 24.33rem 6.85rem 24.35rem;
+  }
+}
+
 .speakers__icon__list__left1__img1 {
   width: 29.1rem;
   height: 35.0rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__left1__img1 {
+    width: 20.22rem;
+    height: 24.3rem;
+  }
 }
 
 .speakers__icon__list__left2 {
@@ -2516,9 +2707,31 @@ input[type="__password"]::placeholder {
   padding: 8rem 13.623rem 9.5rem 13.75rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__left2 {
+    width: 100%;
+    height: 35.2rem;
+    padding: 4.1rem 25.983rem 6.3rem 26rem;
+  }
+}
+
 .speakers__icon__list__left2__img2 {
   width: 26.8rem;
   height: 38.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__left2__img2 {
+    width: 16.9rem;
+    height: 24.3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__right {
+    width: 100%;
+    margin-top: 5.2rem;
+  }
 }
 
 .speakers__icon__list__right__text {
@@ -2528,6 +2741,12 @@ input[type="__password"]::placeholder {
   letter-spacing: 1.0rem;
   text-transform: uppercase;
   color: #D87D4A;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__right__text {
+    text-align: center;
+  }
 }
 
 .speakers__icon__list__right__heading {
@@ -2542,6 +2761,14 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__right__heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .speakers__icon__list__right__paragraph {
   max-width: 44.5rem;
   font-weight: 500;
@@ -2553,8 +2780,23 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers__icon__list__right__paragraph {
+    max-width: 57.2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .speaker1 {
   padding-top: 16rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speaker1 {
+    padding-top: 12rem;
+  }
 }
 
 .speaker1__icon {
@@ -2573,6 +2815,15 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .speaker1__icon__list__left1 {
   width: 54rem;
   height: 56rem;
@@ -2581,9 +2832,32 @@ input[type="__password"]::placeholder {
   padding: 7rem 5.5rem 10.9rem 6.4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list__left1 {
+    width: 100%;
+    padding: 11rem 16.8rem 15rem 17.6rem;
+  }
+}
+
 .speaker1__icon__list__left1__img1 {
   width: 42.1rem;
   height: 38.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list__left1__img1 {
+    width: 34.5rem;
+    height: 31.2rem;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list__right {
+    margin-top: 5.2rem;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .speaker1__icon__list__right__text {
@@ -2607,6 +2881,13 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list__right__heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .speaker1__icon__list__right__paragraph {
   max-width: 44.5rem;
   font-weight: 500;
@@ -2618,8 +2899,22 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speaker1__icon__list__right__paragraph {
+    max-width: 57.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .headphones1__hero {
   margin-top: 7.9rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones1__hero {
+    margin-top: 3.3rem;
+  }
 }
 
 .headphones1__hero__link {
@@ -2632,6 +2927,12 @@ input[type="__password"]::placeholder {
   mix-blend-mode: normal;
   opacity: 0.5;
   margin-bottom: 5.6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones1__hero__link {
+    margin-bottom: 2.4rem;
+  }
 }
 
 .headphones1__hero__all {
@@ -2654,9 +2955,30 @@ input[type="__password"]::placeholder {
   padding: 6.55rem 9.58rem 10.85rem 9.488rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones1__hero__all__left {
+    width: 28.1rem;
+    height: 48rem;
+    padding: 13.3rem 5rem 14.6rem 5rem;
+  }
+}
+
 .headphones1__hero__all__left__img {
   width: 34.9rem;
   height: 38.6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones1__hero__all__left__img {
+    width: 18.1rem;
+    height: 20.1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones1__hero__all__right {
+    max-width: 33.5rem;
+  }
 }
 
 .headphones1__hero__all__right__text {
@@ -2771,14 +3093,35 @@ input[type="__password"]::placeholder {
   margin-top: 16rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .features {
+    margin-top: 12rem;
+  }
+}
+
 .features__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+@media only screen and (max-width: 900px) {
+  .features__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .features__left {
   margin-right: 12.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .features__left {
+    margin-right: 0;
+  }
 }
 
 .features__left__heading {
@@ -2801,6 +3144,24 @@ input[type="__password"]::placeholder {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 900px) {
+  .features__left__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 68.9rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .features__right {
+    margin-top: 12rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .features__right__heading {
   font-weight: bold;
   font-size: 3.2rem;
@@ -2809,6 +3170,12 @@ input[type="__password"]::placeholder {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 3.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .features__right__heading {
+    margin-right: 20rem;
+  }
 }
 
 .features__right__icon {
@@ -2847,6 +3214,12 @@ input[type="__password"]::placeholder {
   margin-top: 16rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .images {
+    margin-top: 12rem;
+  }
+}
+
 .images__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2873,10 +3246,25 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .images__left__top {
+    width: 27.7rem;
+    height: 17.4rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .images__left__bottom {
   width: 44.5rem;
   height: 28rem;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .images__left__bottom {
+    width: 27.7rem;
+    height: 17.4rem;
+  }
 }
 
 .images__right__img {
@@ -2885,8 +3273,21 @@ input[type="__password"]::placeholder {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 900px) {
+  .images__right__img {
+    width: 39.5rem;
+    height: 36.8rem;
+  }
+}
+
 .recommendation {
   margin-top: 16rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .recommendation {
+    margin-top: 12rem;
+  }
 }
 
 .recommendation__heading {
@@ -2914,10 +3315,22 @@ input[type="__password"]::placeholder {
   max-width: 35rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .recommendation__icon__list {
+    max-width: 22.3rem;
+  }
+}
+
 .recommendation__icon__list__left {
   background: #F1F1F1;
   border-radius: 8px;
   padding: 6.2rem 10.1rem 6.3rem 10.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .recommendation__icon__list__left {
+    padding: 6.2rem 3.693rem 6.3rem 3.777rem;
+  }
 }
 
 .recommendation__icon__list__left__img {
@@ -2931,6 +3344,12 @@ input[type="__password"]::placeholder {
   padding: 5.9rem 8rem 6rem 8rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .recommendation__icon__list__middle {
+    padding: 5.9rem 1.585rem 6rem 1.634rem;
+  }
+}
+
 .recommendation__icon__list__middle__img {
   width: 19.1rem;
   height: 19.9rem;
@@ -2940,6 +3359,12 @@ input[type="__password"]::placeholder {
   background: #F1F1F1;
   border-radius: 8px;
   padding: 7.3rem 10.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .recommendation__icon__list__right {
+    padding: 7.3rem 3.982rem 7.3rem 4.006rem;
+  }
 }
 
 .recommendation__icon__list__right__img {
@@ -2994,11 +3419,10 @@ input[type="__password"]::placeholder {
   margin-right: 13rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .modal__content {
-    width: 32.7rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 12rem;
+    margin-right: 6rem;
   }
 }
 
@@ -3202,6 +3626,12 @@ input[type="__password"]::placeholder {
   margin-top: 7.9rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones2__hero {
+    margin-top: 3.3rem;
+  }
+}
+
 .headphones2__hero__link {
   display: inline-block;
   text-decoration: none;
@@ -3212,6 +3642,12 @@ input[type="__password"]::placeholder {
   mix-blend-mode: normal;
   opacity: 0.5;
   margin-bottom: 5.6rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones2__hero__link {
+    margin-bottom: 2.4rem;
+  }
 }
 
 .headphones2__hero__all {
@@ -3234,9 +3670,30 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 12.2rem 10.9rem 12.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones2__hero__all__left {
+    width: 28.1rem;
+    height: 48rem;
+    padding: 14.1rem 6.669rem 14.6rem 6.6rem;
+  }
+}
+
 .headphones2__hero__all__left__img {
   width: 29.5rem;
   height: 38.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones2__hero__all__left__img {
+    width: 14.8rem;
+    height: 19.3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones2__hero__all__right {
+    max-width: 33.9rem;
+  }
 }
 
 .headphones2__hero__all__right__heading {
@@ -3341,6 +3798,12 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 8.7rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones--left {
+    padding: 6.2rem 2.348rem 6.2rem 2.4rem;
+  }
+}
+
 .headphones2--img {
   width: 17.5rem;
   height: 19.4rem;
@@ -3350,9 +3813,22 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 8.3rem 10.9rem 8.4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .headphones3--left {
+    padding: 14.1rem 4.895rem 14.6rem 4.7rem;
+  }
+}
+
 .headphones3--img {
   width: 37.3rem;
   height: 38.9rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones3--img {
+    width: 18.505rem;
+    height: 19.3rem;
+  }
 }
 
 .headphones3--heading {
@@ -3361,6 +3837,12 @@ input[type="__password"]::placeholder {
 
 .headphones3--middle {
   padding: 6.2rem 10.1rem 6.3rem 10.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .headphones3--middle {
+    padding: 6.2rem 3.693rem 6.3rem 3.777rem;
+  }
 }
 
 .headphones3--img2 {
@@ -3372,9 +3854,22 @@ input[type="__password"]::placeholder {
   padding: 10.15rem 12.426rem 10.85rem 12.45rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers1--hero--left {
+    padding: 13.25rem 5.725rem 14.65rem 5.65rem;
+  }
+}
+
 .speakers1--hero--left--img {
   width: 29.1rem;
   height: 35rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers1--hero--left--img {
+    width: 16.726rem;
+    height: 20.1rem;
+  }
 }
 
 .speakers1--text {
@@ -3383,6 +3878,12 @@ input[type="__password"]::placeholder {
 
 .speakers1--left {
   padding: 6.3rem 10.851rem 6.4rem 10.853rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers1--left {
+    padding: 6.4rem 4.503rem 6.3rem 4.5rem;
+  }
 }
 
 .speakers1--left--img {
@@ -3394,6 +3895,12 @@ input[type="__password"]::placeholder {
   padding: 5.9rem 7.9rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers1--right {
+    padding: 5.9rem 1.585rem 6rem 1.634rem;
+  }
+}
+
 .speakers1--right--img {
   width: 19.1rem;
   height: 19.9rem;
@@ -3403,9 +3910,22 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 13.598rem 10.9rem 13.6rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .speakers2--hero--left {
+    padding: 13.2rem 7.08rem 14.6rem 7rem;
+  }
+}
+
 .speakers2--hero--left--img {
   width: 26.8rem;
   height: 38.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers2--hero--left--img {
+    width: 14.062rem;
+    height: 20.2rem;
+  }
 }
 
 .speakers2--heading {
@@ -3414,6 +3934,12 @@ input[type="__password"]::placeholder {
 
 .speakers2--left {
   padding: 7.3rem 10.382rem 7.3rem 10.306rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .speakers2--left {
+    padding: 7.3rem 3.982rem 7.3rem 4.006rem;
+  }
 }
 
 .speakers2--left--img {
@@ -3425,9 +3951,22 @@ input[type="__password"]::placeholder {
   padding: 7rem 5.5rem 10.9rem 6.4rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .earphones1--hero--left {
+    padding: 9.5rem 7px 14.7rem 1.1rem;
+  }
+}
+
 .earphones1--hero--left--img {
   width: 42.1rem;
   height: 38.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .earphones1--hero--left--img {
+    width: 26.3rem;
+    height: 23.8rem;
+  }
 }
 
 .earphones1--text {
@@ -3438,6 +3977,12 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 10.093rem 6.3rem 10.077rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .earphones1--left {
+    padding: 6.2rem 3.693rem 6.3rem 3.777rem;
+  }
+}
+
 .earphones1--left--img {
   width: 14.8rem;
   height: 19.3rem;
@@ -3446,6 +3991,13 @@ input[type="__password"]::placeholder {
 .checkout {
   margin-top: 7.9rem;
   margin-bottom: 14.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .checkout {
+    margin-top: 4.8rem;
+    margin-bottom: 16.6rem;
+  }
 }
 
 .checkout__body {
@@ -3476,6 +4028,16 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .checkout__icon {
+    margin-top: 2.4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .checkout--icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3497,12 +4059,34 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
+@media only screen and (max-width: 900px) {
+  .checkout--icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .checkout__all {
   max-width: 73rem;
   min-height: 112.6rem;
   background: #FFFFFF;
   padding: 5.4rem 4.8rem 4.8rem 4.75rem;
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+  .checkout__all {
+    max-width: 68.9rem;
+    min-height: 10.84rem;
+    padding: 3rem 2.7rem 3rem 2.75rem;
+  }
 }
 
 .checkout__all__heading {
@@ -3530,6 +4114,13 @@ input[type="__password"]::placeholder {
   background: #FFFFFF;
   border-radius: 8px;
   padding: 3.2rem 3.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .checkout__all__right {
+    margin-top: 3.2rem;
+    width: 100%;
+  }
 }
 
 .checkout__all__right__heading {
@@ -3563,6 +4154,13 @@ input[type="__password"]::placeholder {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 20.4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .checkout__all__right__right {
+    width: 100%;
+    margin-left: 1.6rem;
+  }
 }
 
 .checkout__all__right__right__text__all__text1 {
