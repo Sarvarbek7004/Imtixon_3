@@ -1,0 +1,77 @@
+.btn{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color:  #D87D4A;
+    padding: 1.5rem 2.9rem 1.5rem 3.1rem;
+    @include respond(phones){
+        display: block;
+        width:16rem;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    @include respond(mobile__phones){
+        display: block;
+        width:16rem;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    &:active{
+        color:$color-white;
+        background-color:$color-f85;
+    }  
+    &--speaker{
+        color:$color-white;
+        background-color: $color-000;
+        &:active{
+            color:$color-white;
+            background: #4C4C4C;
+        }
+        &--continued{
+            color:$color-000;
+            border: 1px solid $color-000;
+            background-color:transparent;
+            @include respond(phones){
+                width: 16.2rem;
+                margin: 0;
+            }
+            @include respond(mobile__phones){
+                width: 16.2rem;
+                margin: 0;
+            }
+            
+             
+            &:active{
+                color:$color-white;
+                background-color:$color-000;
+            }
+        }
+    }
+    &--recommendation{
+        width: 16rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &--checkbox{
+        width: 100%;
+        text-align: center;
+    }
+    &--modal{
+        width: 100%;
+        text-align: center;
+        margin-top:2.4rem;
+    }
+    &--modal2{
+        width: 100%;
+        text-align: center;
+        margin-top:4.6rem;
+    }
+   }

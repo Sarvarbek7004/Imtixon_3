@@ -1,0 +1,40 @@
+.speakers1{
+    &--hero--left{
+            padding: 10.15rem 12.426rem 10.85rem 12.45rem;
+            @include respond(phones){
+                padding:13.25rem 5.725rem 14.65rem 5.65rem;
+            }
+        
+        &--img{
+             width: 29.1rem;
+             height: 35rem;
+             @include respond(phones){
+                width:16.726rem;
+                height:20.1rem;
+            }
+        }
+    }
+    &--text{
+        width:27.9rem;
+    }
+    &--left{
+        padding: 6.3rem 10.851rem 6.4rem 10.853rem;
+        @include respond(phones){
+            padding:6.4rem 4.503rem 6.3rem 4.5rem;
+        }
+        &--img{
+         width:13.3rem;
+         height:19.1rem;
+        }
+    }
+    &--right{
+         padding:5.9rem 7.9rem;
+         @include respond(phones){
+            padding:5.9rem 1.585rem 6rem 1.634rem;
+        }
+        &--img{
+          width:19.1rem;
+          height:19.9rem;
+        }
+    }
+}

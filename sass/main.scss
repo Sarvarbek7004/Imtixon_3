@@ -1,9 +1,10 @@
 // Abstracts
+@import './abstracts/mixins';
 @import './abstracts/variables';
 @import './abstracts/utils';
-@import './abstracts/mixins';
 // Base
 @import './base/base';
+@import './base/fonts';
 @import './base/typography';
 @import './base/normalize';
 
@@ -11,9 +12,14 @@
 @import './components/btn';
 @import './components/card';
 @import './components/dropdown';
+@import './components/hamburger';
 
 // LAYOUT
 @import './layout/header';
+@import './layout/header_headphones';
+@import './layout/header_speakers';
+@import './layout/header_earphones';
+@import './layout/header_headphones1';
 @import './layout/nav';
 @import './layout/footer';
 @import './layout/forms';
@@ -21,6 +27,16 @@
 
 // PAGES
 @import './pages/home';
+@import './pages/headphones';
+@import './pages/speakers';
+@import './pages/earphones';
+@import './pages/headphones1';
+@import './pages/headphones2';
+@import './pages/headphones3';
+@import './pages/speakers1';
+@import './pages/speakers2';
+@import './pages/earphones1';
+@import './pages/checkout';
 @import './pages/about';
 @import './pages/contact';
 

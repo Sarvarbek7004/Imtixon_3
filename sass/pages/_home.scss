@@ -1,0 +1,535 @@
+.product{
+    margin-top: 12.8rem;
+    @include respond(phones){
+        width:100%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+    @include respond(mobile__phones){
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10.8rem;
+     }
+   
+    
+   &__text{
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    letter-spacing: 1.0rem;
+    text-transform: uppercase;
+    color:$color-white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    @include respond(phones){
+        text-align: center;
+     }
+    @include respond(mobile__phones){
+        text-align: center;
+     }
+   
+   
+   }
+   &__heading{
+       max-width: 39.6rem;
+    font-weight: bold;
+    font-size: 5.6rem;
+    line-height: 5.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $color-white;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    @include respond(phones){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    @include respond(mobile__phones){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3.6rem;
+        line-height: 4.0rem;
+    }
+    
+   
+    
+   }
+   &__paragraph{
+    max-width: 34.9rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 4rem;
+    @include respond(phones){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @include respond(mobile__phones){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+   
+   
+     
+   }
+
+}
+.shop{
+    margin-bottom: 16.8rem;
+    @include respond(phones){
+        margin-bottom:9.6rem;
+    }
+    @include respond(mobile__phones){
+        margin-bottom: 12rem;
+     }
+   
+   
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        @include respond(mobile__phones){
+         flex-direction: column;
+        }
+    }
+    &__left{
+        width: 35rem;
+        background-color: $color-1f1;
+        border-radius: 8px;
+        margin-top: 20rem;
+        position: relative;
+        @include respond(phones){
+            width:21.3rem;
+            margin-top:14.8rem;
+            }
+        @include respond(mobile__phones){
+            width: 32.7rem;
+            height:16.5rem;
+            margin-top:6.8rem;
+            margin-left: auto;
+            margin-right: auto; 
+         }
+       
+       
+        &:nth-child(1){
+            @include respond(mobile__phones){
+               margin-top: 9.8rem;
+            }
+        }
+        &__img{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            @include respond(phones){
+                width:7.992rem;
+                height:10.4rem;
+              }
+            @include respond(mobile__phones){
+                width:7.992rem;
+                height:10.4rem;
+            }
+           
+            
+        }
+    }
+    &__heading{
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        text-align: center;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: $color-000 ;
+        padding-top: 11.6rem;
+        @include respond(phones){
+            font-size: 1.5rem;
+            line-height: 2.0rem;
+            text-align: center;
+            letter-spacing: 1.07143px;
+            padding-top:8.8rem;
+        }
+        @include respond(mobile__phones){
+            font-size: 1.5rem;
+            line-height: 2.0rem;
+            text-align: center;
+            letter-spacing: 1.07143px;
+            padding-top:8.8rem;
+        }
+      
+        
+         
+    }
+    &__all{
+            max-width: 5.76rem;
+            display: flex;
+            align-items:center;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+            padding-bottom: 3rem;
+            @include respond(phones){
+                margin-top: 1.7rem;
+            }
+        &__text{
+            font-weight: bold;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $color-000;
+            mix-blend-mode: normal;
+            opacity: 0.5; 
+            margin-right: 1.3rem;
+            text-decoration: none;
+            @include respond(phones){
+                font-size: 1.3rem;
+                line-height: 1.8rem;
+                letter-spacing: 1px;
+            }
+            &:active{
+                color:$color-d4a;
+            }
+           
+            &__link{
+                display: inline-block;
+                &__img{
+                    width:5px;
+                    height:1rem;
+                }
+            }
+        }
+    }
+}
+.speaker{
+    min-height: 56rem;
+    // @include respond(phones){
+    //     min-height: 72rem;
+    //     max-width:68.9rem;
+    // }
+    background-image:url(../../images/speaker.png),url(../../images/Mask.png);
+    background-repeat:no-repeat;
+    background-size:41rem 49.3rem,111rem 56rem;
+    background-position: bottom left 11.7rem,center;
+    @include respond(phones){
+        min-height: 72rem;
+        max-width:68.9rem;
+      background-image: url(../../images/responsive__img2.png),url(../../images/responsive__img1.png);
+      background-repeat:no-repeat;
+      background-size:19.7rem 23.7rem,68.9rem 72.0rem;
+      background-position: center top 5.2rem,center;   
+    }
+    @include respond(mobile__phones){
+        max-width: 32.7rem;
+        min-height: 60rem;
+        background-image: url(../../images/mobile__img2x3.png),url(../../images/responsive__img2x4-1.png);
+        background-repeat:no-repeat;
+        background-size:17.25rem 20.7rem,32.7rem 60rem;
+        background-position: center top 5.2rem,center;
+    }
+  
+  
+    &__right{
+        max-width: 34.9rem;
+        padding-top: 13.3rem;
+        margin-left: auto;
+        margin-right: 9.5rem;
+        @include respond(phones){
+            padding-top:35.3rem;
+            margin-left: auto;
+            margin-right: auto;
+         }
+        @include respond(mobile__phones){
+            padding-top:29.6rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+      
+       
+    }
+    &__heading{
+        max-width:26.1rem;
+        font-weight: bold;
+        font-size: 5.6rem;
+        line-height: 5.8rem; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $color-white;
+        @include respond(phones){
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        @include respond(mobile__phones){
+            max-width:17.5rem;
+           font-size: 3.6rem;
+           line-height: 4.0rem;
+           text-align: center;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       
+       
+    }
+    &__text{
+        max-width: 34.9rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: $color-white;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+        margin-top: 2.4rem;
+        margin-bottom: 4rem;
+        @include respond(phones){
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        @include respond(mobile__phones){
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2.4rem;
+          }
+       
+       
+    }
+    &__continued{
+        margin-top: 4.8rem;
+        min-height: 34rem;
+        background-image:url(../../images/img-speaker.png);
+        background-repeat:no-repeat;
+        background-size:111rem 34rem;
+        background-position: center;
+        @include respond(phones){
+            margin-top: 3.2rem;
+            min-height:32rem;
+            background-image:url(../../images/responsive__img3.png);
+            background-repeat:no-repeat;
+            background-size:68.9rem 32rem;
+            background-position: center;
+           }
+        @include respond(mobile__phones){
+            margin-top:2.4rem;
+            min-height:32rem;
+            background-image:url(../../images/mobile__img2x4.png);
+            background-repeat:no-repeat;
+            background-size:32.7rem 32rem;
+            background-position: center;
+        }
+       
+          
+        &__heading{
+            font-weight: bold;
+            font-size: 2.8rem;
+            line-height: 3.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 3.2rem;
+        }
+        &__left{
+            padding-top: 10.1rem;
+            padding-left: 9.6rem;
+            @include respond(phones){
+                padding-top: 10.1rem;
+                padding-left: 6.2rem;
+               }
+            @include respond(mobile__phones){
+                padding-top:10.1rem;
+                padding-left: 2.4rem;
+            }
+          
+           
+
+        }
+    }
+   
+}
+.earphones{
+    margin-top: 4.8rem;
+    @include respond(phones){
+        margin-top: 3.2rem;
+     }
+    
+    @include respond(mobile__phones){
+        // width:42.4rem;
+        margin-top:2.4rem;
+     }
+   
+   
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        @include respond(mobile__phones){
+            flex-direction: column;
+            align-items: center;
+         }
+    }
+    &__img{
+        width:54rem;
+        height:32rem;
+        @include respond(phones){
+            width:33rem;
+            height: 32rem;
+        }
+        @include respond(mobile__phones){
+            width:32.7rem;
+            height:20rem;
+        }
+       
+       
+    }
+    &__heading{
+        font-weight: bold;
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $color-000;
+        margin-bottom: 3.2rem;
+        @include respond(phones){
+            width:24.7rem 
+        }
+        @include respond(mobile__phones){
+            width:24.7rem;
+            font-size: 2.8rem;
+            line-height: 3.8rem;
+            letter-spacing: 2px; 
+        }
+     
+       
+    }
+    &__right{
+        width:54rem;
+        height: 32rem;
+        background:$color-1f1;
+        border-radius: 8px;
+        padding: 10.1rem 0rem 10.1rem 9.5rem;
+        @include respond(phones){
+            padding: 10.1rem 5.3rem 10.1rem 4.3rem;
+            width:33rem;
+            height: 32rem;
+          }
+        @include respond(mobile__phones){
+            margin-top: 2.4rem;
+            padding:4.1rem 5.8rem 4.1rem 2.4rem;
+            width:32.7rem;
+            height:20rem;
+          }
+       
+       
+        
+    }
+}
+.the__best__audio{
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    @include respond(phones){
+        margin-top:9.6rem;
+        margin-bottom: 9.6rem;
+    }
+    @include respond(mobile__phones){
+        margin-top:12rem;
+        margin-bottom:12rem;
+    }
+    
+    
+    &__container{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        @include respond(phones){
+            display: flex;
+            flex-direction:column-reverse;
+            
+        }
+
+        @include respond(mobile__phones){
+            display: flex;
+            flex-direction:column-reverse;
+            
+        }
+        
+        
+       
+         
+       &__left{
+        @include respond(phones){
+            margin-top:6.3rem;
+         }
+        @include respond(mobile__phones){
+            margin-top:4rem;
+         }
+      
+       
+       }
+    }
+    &__heading{
+        max-width: 44.5rem;
+        font-weight: bold;
+        font-size: 4.0rem;
+        line-height: 4.4rem;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+        @include respond(phones){
+            max-width:57.3rem;
+            text-align: center;
+          }
+        @include respond(mobile__phones){
+            font-size: 2.8rem;
+            line-height: 3.8rem;
+            max-width:32.7rem;
+            text-align: center;
+          }
+       
+        
+        &__span{
+            color:$color-d4a;
+        }
+    }
+    &__text{
+        max-width:44.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-top: 3.2rem;
+        @include respond(phones){
+            max-width:57.3rem;
+            text-align: center;
+          }
+        @include respond(mobile__phones){
+            max-width:32.7rem;
+            text-align: center;
+          }
+       
+         
+}
+   &__img{
+    @include respond(phones){
+        width:68.9rem;
+        height:30rem;
+        
+    }
+    @include respond(mobile__phones){
+        width:32.7rem;
+        height:30rem;
+        
+    }
+   
+   
+   }
+}

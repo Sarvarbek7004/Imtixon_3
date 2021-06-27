@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .container {
@@ -24,4 +24,12 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  @include respond(phones){
+      padding-left:3.9rem;
+      padding-right:4rem;
+  }
+  @include respond(mobile__phones){
+    padding-left:2.4rem;
+    padding-right:2.4rem;
+}
 }

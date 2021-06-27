@@ -1,0 +1,129 @@
+.speakers{
+    padding-top:16rem;
+    @include respond(phones){
+        padding-top:12rem;
+    }
+
+    &__icon{
+        list-style: none;
+        
+        
+        &__list{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            &:nth-child(1){
+                @include respond(phones){
+                display: flex;
+                flex-direction: column;
+                }
+            }
+            &:nth-child(2){
+                margin-top: 16rem;
+                flex-direction: row-reverse;
+                @include respond(phones){
+                    flex-direction: column;
+                    margin-top: 13.5rem;
+              }
+            }
+
+            &__left1{
+                width:54rem;
+                height:56rem;
+                background:$color-1f1;
+                border-radius: 8px;
+                padding:9.65rem 12.426rem 11.35rem 12.45rem;
+                @include respond(phones){
+                    width: 100%;
+                    height:35.2rem;
+                    padding: 4.05rem 24.33rem 6.85rem 24.35rem;
+                }
+                &__img1{
+                    width:29.1rem;
+                    height:35.0rem;
+                    @include respond(phones){
+                        width: 20.22rem;
+                        height: 24.3rem;
+                    }
+                }
+
+            }
+            &__left2{
+                width:54rem;
+                height:56rem;
+                background:$color-1f1;
+                border-radius: 8px;
+                padding: 8rem 13.623rem 9.5rem 13.75rem;
+                @include respond(phones){
+                    width: 100%;
+                    height:35.2rem;
+                    padding:4.1rem 25.983rem 6.3rem 26rem;
+                }
+               
+                &__img2{
+                    width:26.8rem;
+                    height:38.5rem;
+                    @include respond(phones){
+                        width:16.9rem;
+                        height:24.3rem;
+                    }
+                }
+                
+
+            }
+            
+            &__right{
+                  
+                @include respond(phones){
+                   width: 100%;
+                   margin-top:5.2rem;
+                }
+                 &__text{
+                    font-weight: normal;
+                    font-size: 1.4rem;
+                    line-height: 1.9rem;
+                    letter-spacing: 1.0rem;
+                    text-transform: uppercase;
+                    color:$color-d4a;
+                    @include respond(phones){
+                          text-align:center;
+                    }
+                    
+                 }
+                 &__heading{
+                     max-width:27.5rem;
+                    font-weight: bold;
+                    font-size: 4.0rem;
+                    line-height: 4.4rem;
+                    letter-spacing: 1.42857px;
+                    text-transform: uppercase;
+                    color:$color-000;
+                    margin-top: 1.6rem;
+                    margin-bottom: 3.2rem;
+                    @include respond(phones){
+                        text-align:center;
+                        margin-left: auto;
+                        margin-right: auto;
+                  }
+                    
+                 }
+                 &__paragraph{
+                    max-width: 44.5rem;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    color:$color-000;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                    margin-bottom: 4rem;
+                    @include respond(phones){
+                        max-width:57.2rem;
+                        text-align:center;
+                        margin-left: auto;
+                        margin-right: auto;
+                  }
+                 }
+            }
+        }
+    }
+}

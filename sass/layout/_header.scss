@@ -1,0 +1,176 @@
+.hero__section{
+    background-color: #0E0E0E;
+    min-height: 72.9rem;
+    background-image:url(../../images/Bitmap.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: calc(50% + 231px);
+    @include respond(phones){
+        background-image: url(../../images/responsive__img.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    @include respond(mobile__phones){
+        background-image: url(../../images/responsive__mobile__img1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center top -1.5rem;
+        min-height:60rem;
+   }
+  
+   
+}
+.header{
+    padding-top: 3.2rem;
+    &__top{
+       display: flex;
+       align-items:center;
+       @include respond(phones){
+        display: flex;
+      //   justify-content: space-between;
+  }
+       @include respond(mobile__phones){
+        display: flex;
+        justify-content: space-between;
+   }
+      
+   
+    }
+
+
+    &__left__link__img{
+        width: 14.3rem ;
+        height:2.5rem ;
+    }
+    &__icon{
+        margin-left:19.7rem;
+        margin-right:auto;
+        list-style: none;
+        display: flex;
+        &__list{
+            margin-right: 3.4rem;
+            &:last-child{
+                margin-right: 0px;
+            }
+            &__link{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.3rem;
+                line-height: 2.5rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: $color-white;
+                &:active{
+                    color: $color-d4a
+                }
+            }
+        }
+        @include respond(phones){
+            display: none;
+       }
+        @include respond(mobile__phones){
+            display: none;
+         }
+       
+       
+    }
+    &__right__link{
+        @include respond(phones){
+            display: inline-block;
+            margin-left: auto;
+       }
+    }
+    &__right__link__img{
+        width:2.3rem;
+        height:2rem;
+       
+        
+    }
+    &__line{
+        height: 1px;
+        margin-top: 3.6rem;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        @include respond(phones){
+            margin-top: 3.2rem;
+       }
+        @include respond(mobile__phones){
+            margin-top: 3.2rem;
+        }
+       
+       
+    }
+}
+
+.modal3{
+    background: rgba(0, 0, 0,.4);
+    mix-blend-mode: normal;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:flex-end;
+    // @include respond(mobile__phones){
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+    z-index: 10;
+
+    opacity: 0;
+    visibility: hidden;
+    transform:translateY(-100%);
+
+    transition: all .9s ease-in-out;
+    &__content{
+        background: #FFFFFF;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width:76.8rem;
+        height:34rem;
+        padding:10.8rem 3.9rem 6.7rem 4rem;
+        position: relative;
+        margin-top: 9rem;
+        @include respond(phones){
+            width: 100%;
+        }
+        @include respond(mobile__phones){
+            width:100%;
+            height:75rem;
+            padding:8.4rem 2.4rem 3.5rem 2.4rem;
+
+        }
+       
+       
+    }
+   
+   
+    &__close{
+        color:$color-000;
+        font-size: 3.5rem;
+        text-decoration: none;
+        position: absolute;
+        top:5px;
+        right:60px;
+        cursor: pointer;
+    }
+   
+    }
+
+#modal3:target{
+    
+    opacity: 1;
+    visibility: visible;
+
+    transform: scale(1);
+}
+.modal3--list{
+     padding: 9.5px 7.78px 12.5px 9.78px;
+    &--img2{
+        width:4.643rem ;
+        height:4.2rem;
+    }
+}

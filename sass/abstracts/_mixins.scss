@@ -4,6 +4,10 @@
   width: $w;
   height: $h;
 }
+%flexCenter{
+  display: flex;
+  align-items: center;
+}
 
 @mixin baImages ($w, $h, $url) {
   @include baElements($w, $h);
@@ -12,3 +16,18 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+@mixin respond($breakpoint){
+  @if($breakpoint==phones){
+    @media only screen and (max-width:900px){
+      @content;
+    }
+  }
+}
+@mixin respond($breakpoint){
+  @if($breakpoint==mobile__phones){
+    @media only screen and (max-width:600px){
+      @content;
+    }
+  }
+}
+

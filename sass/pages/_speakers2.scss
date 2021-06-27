@@ -1,0 +1,31 @@
+.speakers2{
+
+     &--hero--left{
+          padding: 6.6rem 13.598rem 10.9rem 13.6rem;
+          @include respond(phones){
+              padding:13.2rem 7.08rem 14.6rem 7rem;
+          }
+        &--img{
+            width:26.8rem;
+            height:38.5rem;
+            @include respond(phones){
+                width:14.062rem;
+                height:20.2rem;
+            }
+        }
+     }
+     &--heading{
+         max-width: 27.5rem;
+     }
+     &--left{
+        padding: 7.3rem 10.382rem 7.3rem 10.306rem;
+        @include respond(phones){
+            padding:7.3rem 3.982rem 7.3rem 4.006rem;
+        }
+        &--img{
+        width:14.3rem;
+        height:17.2rem;
+        }
+         
+     }
+}

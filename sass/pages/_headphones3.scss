@@ -1,0 +1,29 @@
+.headphones3{
+    &--left{
+        padding: 6.2rem 8.3rem 10.9rem 8.4rem;
+         @include respond(phones){
+             padding:14.1rem 4.895rem 14.6rem 4.7rem;
+         }
+    }
+    &--img{
+        width: 37.3rem;
+        height: 38.9rem;
+         @include respond(phones){
+             width:18.505rem;
+             height:19.3rem;
+         }
+    }
+    &--heading{
+        max-width:39.9rem ;
+    }
+    &--middle{
+        padding:6.2rem 10.1rem 6.3rem 10.1rem;
+        @include respond(phones){
+           padding:6.2rem 3.693rem 6.3rem 3.777rem;
+        }
+    }
+    &--img2{
+        width:14.8rem;
+        height:19.3rem;
+    }
+}
