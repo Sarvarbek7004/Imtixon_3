@@ -28,10 +28,17 @@ body {
   padding-right: 15px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .container {
     padding-left: 3.9rem;
     padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
   }
 }
 
@@ -418,7 +425,17 @@ template {
   padding: 1.5rem 2.9rem 1.5rem 3.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .btn {
+    display: block;
+    width: 16rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .btn {
     display: block;
     width: 16rem;
@@ -449,7 +466,14 @@ template {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .btn--speaker--continued {
+    width: 16.2rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .btn--speaker--continued {
     width: 16.2rem;
     margin: 0;
@@ -492,10 +516,16 @@ template {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .hamburger {
     display: inline-block;
     margin-right: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: inline-block;
   }
 }
 
@@ -553,6 +583,14 @@ template {
           transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 600px) {
+  .shop3 {
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .shop3__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,6 +600,15 @@ template {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  .shop3__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .shop3__left {
   width: 35rem;
   background-color: #F1F1F1;
@@ -569,10 +616,21 @@ template {
   position: relative;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop3__left {
     width: 22.3rem;
     height: 16.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop3__left {
+    width: 32.7rem;
+    height: 16.5rem;
+  }
+  .shop3__left:nth-child(2) {
+    margin-top: 6.8rem;
+    margin-bottom: 6.8rem;
   }
 }
 
@@ -584,7 +642,14 @@ template {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .shop3__left__img {
+    width: 7.992rem;
+    height: 10.4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .shop3__left__img {
     width: 7.992rem;
     height: 10.4rem;
@@ -602,7 +667,13 @@ template {
   padding-top: 11.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .shop3__heading {
+    padding-top: 8.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .shop3__heading {
     padding-top: 8.8rem;
   }
@@ -621,7 +692,7 @@ template {
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop3__all {
     margin-top: 1.7rem;
   }
@@ -662,12 +733,22 @@ template {
   background-position: calc(50% + 231px);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .hero__section {
     background-image: url(../../images/responsive__img.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__section {
+    background-image: url(../../images/responsive__mobile__img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top -1.5rem;
+    min-height: 60rem;
   }
 }
 
@@ -684,11 +765,22 @@ template {
           align-items: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .header__top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -728,13 +820,19 @@ template {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .header__icon {
     display: none;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .header__icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .header__right__link {
     display: inline-block;
     margin-left: auto;
@@ -754,7 +852,13 @@ template {
   opacity: 0.2;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .header__line {
+    margin-top: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .header__line {
     margin-top: 3.2rem;
   }
@@ -794,9 +898,17 @@ template {
   margin-top: 9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .modal3__content {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal3__content {
+    width: 100%;
+    height: 75rem;
+    padding: 8.4rem 2.4rem 3.5rem 2.4rem;
   }
 }
 
@@ -844,7 +956,7 @@ template {
   margin-top: 9.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .header__headphones__heading {
     margin-top: 10.5rem;
   }
@@ -868,7 +980,7 @@ template {
   margin-top: 9.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .header__speakers__heading {
     margin-top: 10.5rem;
   }
@@ -892,7 +1004,7 @@ template {
   margin-top: 9.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .header__earphones__heading {
     margin-top: 10.5rem;
   }
@@ -921,6 +1033,12 @@ template {
   padding-bottom: 4.8rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding-bottom: 3.8rem;
+  }
+}
+
 .footer__line {
   width: 10.1rem;
   height: 4px;
@@ -928,9 +1046,17 @@ template {
   margin-bottom: 7.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__line {
     margin-bottom: 5.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__line {
+    margin-bottom: 4.8rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -949,20 +1075,37 @@ template {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .footer__middle .header__icon {
+    margin: 0;
+    margin-top: 4.8rem;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .footer__middle .header__icon {
     margin: 0;
     margin-top: 3.2rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__middle {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__middle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -978,7 +1121,7 @@ template {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__bottom {
     -webkit-box-align: end;
         -ms-flex-align: end;
@@ -990,7 +1133,7 @@ template {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__bottom__left__svg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -998,6 +1141,20 @@ template {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__bottom__left__svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.8rem;
   }
 }
 
@@ -1012,10 +1169,18 @@ template {
   margin-bottom: 5.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__bottom__left__paragraph {
     max-width: 67rem;
     margin-bottom: 8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__bottom__left__paragraph {
+    max-width: 32.7rem;
+    text-align: center;
+    margin-bottom: 4.8rem;
   }
 }
 
@@ -1028,7 +1193,7 @@ template {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .footer__bottom__left__icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1039,18 +1204,72 @@ template {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .footer__bottom__left__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__bottom__left {
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .footer__bottom__right {
     display: none;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .footer__bottom__right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer--icons .header__icon__list {
+    margin-right: 0;
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-width: 600px) {
+  .footer--icons .header__icon__list:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .footer--icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer--icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1733,11 +1952,20 @@ input[type="__password"]::placeholder {
   margin-top: 12.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .product {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10.8rem;
   }
 }
 
@@ -1752,7 +1980,13 @@ input[type="__password"]::placeholder {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .product__text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .product__text {
     text-align: center;
   }
@@ -1770,11 +2004,21 @@ input[type="__password"]::placeholder {
   margin-bottom: 2.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .product__heading {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product__heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.6rem;
+    line-height: 4.0rem;
   }
 }
 
@@ -1789,7 +2033,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .product__paragraph {
     text-align: center;
     margin-left: auto;
@@ -1797,13 +2041,29 @@ input[type="__password"]::placeholder {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .product__paragraph {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
 .shop {
   margin-bottom: 16.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop {
     margin-bottom: 9.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop {
+    margin-bottom: 12rem;
   }
 }
 
@@ -1816,6 +2076,15 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  .shop__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .shop__left {
   width: 35rem;
   background-color: #F1F1F1;
@@ -1824,10 +2093,26 @@ input[type="__password"]::placeholder {
   position: relative;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop__left {
     width: 21.3rem;
     margin-top: 14.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop__left {
+    width: 32.7rem;
+    height: 16.5rem;
+    margin-top: 6.8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop__left:nth-child(1) {
+    margin-top: 9.8rem;
   }
 }
 
@@ -1839,7 +2124,14 @@ input[type="__password"]::placeholder {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .shop__left__img {
+    width: 7.992rem;
+    height: 10.4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .shop__left__img {
     width: 7.992rem;
     height: 10.4rem;
@@ -1857,7 +2149,17 @@ input[type="__password"]::placeholder {
   padding-top: 11.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
+  .shop__heading {
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    text-align: center;
+    letter-spacing: 1.07143px;
+    padding-top: 8.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .shop__heading {
     font-size: 1.5rem;
     line-height: 2.0rem;
@@ -1880,7 +2182,7 @@ input[type="__password"]::placeholder {
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop__all {
     margin-top: 1.7rem;
   }
@@ -1899,7 +2201,7 @@ input[type="__password"]::placeholder {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop__all__text {
     font-size: 1.3rem;
     line-height: 1.8rem;
@@ -1928,13 +2230,24 @@ input[type="__password"]::placeholder {
   background-position: bottom left 11.7rem,center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker {
     min-height: 72rem;
     max-width: 68.9rem;
     background-image: url(../../images/responsive__img2.png), url(../../images/responsive__img1.png);
     background-repeat: no-repeat;
     background-size: 19.7rem 23.7rem,68.9rem 72.0rem;
+    background-position: center top 5.2rem,center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker {
+    max-width: 32.7rem;
+    min-height: 60rem;
+    background-image: url(../../images/mobile__img2x3.png), url(../../images/responsive__img2x4-1.png);
+    background-repeat: no-repeat;
+    background-size: 17.25rem 20.7rem,32.7rem 60rem;
     background-position: center top 5.2rem,center;
   }
 }
@@ -1946,9 +2259,17 @@ input[type="__password"]::placeholder {
   margin-right: 9.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker__right {
     padding-top: 35.3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker__right {
+    padding-top: 29.6rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1964,8 +2285,19 @@ input[type="__password"]::placeholder {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker__heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker__heading {
+    max-width: 17.5rem;
+    font-size: 3.6rem;
+    line-height: 4.0rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1984,11 +2316,20 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker__text {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker__text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.4rem;
   }
 }
 
@@ -2001,13 +2342,24 @@ input[type="__password"]::placeholder {
   background-position: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker__continued {
     margin-top: 3.2rem;
     min-height: 32rem;
     background-image: url(../../images/responsive__img3.png);
     background-repeat: no-repeat;
     background-size: 68.9rem 32rem;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker__continued {
+    margin-top: 2.4rem;
+    min-height: 32rem;
+    background-image: url(../../images/mobile__img2x4.png);
+    background-repeat: no-repeat;
+    background-size: 32.7rem 32rem;
     background-position: center;
   }
 }
@@ -2027,10 +2379,17 @@ input[type="__password"]::placeholder {
   padding-left: 9.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker__continued__left {
     padding-top: 10.1rem;
     padding-left: 6.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .speaker__continued__left {
+    padding-top: 10.1rem;
+    padding-left: 2.4rem;
   }
 }
 
@@ -2038,9 +2397,15 @@ input[type="__password"]::placeholder {
   margin-top: 4.8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones {
     margin-top: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .earphones {
+    margin-top: 2.4rem;
   }
 }
 
@@ -2053,15 +2418,34 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  .earphones__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .earphones__img {
   width: 54rem;
   height: 32rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones__img {
     width: 33rem;
     height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .earphones__img {
+    width: 32.7rem;
+    height: 20rem;
   }
 }
 
@@ -2075,9 +2459,18 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones__heading {
     width: 24.7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .earphones__heading {
+    width: 24.7rem;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    letter-spacing: 2px;
   }
 }
 
@@ -2089,11 +2482,20 @@ input[type="__password"]::placeholder {
   padding: 10.1rem 0rem 10.1rem 9.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones__right {
     padding: 10.1rem 5.3rem 10.1rem 4.3rem;
     width: 33rem;
     height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .earphones__right {
+    margin-top: 2.4rem;
+    padding: 4.1rem 5.8rem 4.1rem 2.4rem;
+    width: 32.7rem;
+    height: 20rem;
   }
 }
 
@@ -2102,10 +2504,17 @@ input[type="__password"]::placeholder {
   margin-bottom: 20rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio {
     margin-top: 9.6rem;
     margin-bottom: 9.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .the__best__audio {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 }
 
@@ -2121,7 +2530,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2133,9 +2542,27 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .the__best__audio__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .the__best__audio__container__left {
     margin-top: 6.3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .the__best__audio__container__left {
+    margin-top: 4rem;
   }
 }
 
@@ -2149,9 +2576,18 @@ input[type="__password"]::placeholder {
   color: #000000;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio__heading {
     max-width: 57.3rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .the__best__audio__heading {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    max-width: 32.7rem;
     text-align: center;
   }
 }
@@ -2171,16 +2607,30 @@ input[type="__password"]::placeholder {
   margin-top: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio__text {
     max-width: 57.3rem;
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .the__best__audio__text {
+    max-width: 32.7rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .the__best__audio__img {
     width: 68.9rem;
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .the__best__audio__img {
+    width: 32.7rem;
     height: 30rem;
   }
 }
@@ -2189,7 +2639,7 @@ input[type="__password"]::placeholder {
   padding-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones {
     padding-top: 12rem;
   }
@@ -2211,7 +2661,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list:nth-child(1) {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2232,7 +2682,7 @@ input[type="__password"]::placeholder {
           flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list:nth-child(2) {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2244,7 +2694,7 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2264,7 +2714,7 @@ input[type="__password"]::placeholder {
   padding: 6.5rem 9.5rem 10.8rem 9.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left1 {
     width: 100%;
     height: 35.2rem;
@@ -2277,7 +2727,7 @@ input[type="__password"]::placeholder {
   height: 38.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left1__img1 {
     width: 22rem;
     height: 24.3rem;
@@ -2292,7 +2742,7 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 12.2rem 10.9rem 12.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left2 {
     width: 100%;
     height: 35.2rem;
@@ -2305,7 +2755,7 @@ input[type="__password"]::placeholder {
   height: 38.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left2__img2 {
     width: 17.289rem;
     height: 22.5rem;
@@ -2320,7 +2770,7 @@ input[type="__password"]::placeholder {
   padding: 8.3rem 8.35rem 8.8rem 8.35rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left3 {
     width: 100%;
     height: 35.2rem;
@@ -2333,14 +2783,14 @@ input[type="__password"]::placeholder {
   height: 38.9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__left3__img3 {
     width: 21.574rem;
     height: 22.5rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__right {
     width: 100%;
     margin-top: 5.2rem;
@@ -2356,7 +2806,7 @@ input[type="__password"]::placeholder {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__right__text {
     text-align: center;
   }
@@ -2374,7 +2824,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__right__heading {
     text-align: center;
     margin-left: auto;
@@ -2393,7 +2843,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones__icon__list__right__paragraph {
     max-width: 57.2rem;
     text-align: center;
@@ -2406,7 +2856,7 @@ input[type="__password"]::placeholder {
   margin-top: 24rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop2 {
     margin-top: 17.2rem;
   }
@@ -2428,7 +2878,7 @@ input[type="__password"]::placeholder {
   position: relative;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop2__left {
     width: 21.3rem;
   }
@@ -2442,7 +2892,7 @@ input[type="__password"]::placeholder {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop2__left__img {
     width: 7.992rem;
     height: 10.4rem;
@@ -2460,7 +2910,7 @@ input[type="__password"]::placeholder {
   padding-top: 11.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop2__heading {
     padding-top: 8.8rem;
   }
@@ -2479,7 +2929,7 @@ input[type="__password"]::placeholder {
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .shop2__all {
     margin-top: 1.7rem;
   }
@@ -2516,7 +2966,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2 {
     margin-top: 12rem;
     margin-bottom: 12rem;
@@ -2535,7 +2985,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2547,7 +2997,7 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__container__left {
     width: 100%;
     margin-top: 6.3rem;
@@ -2564,7 +3014,7 @@ input[type="__password"]::placeholder {
   color: #000000;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__heading {
     max-width: 57.3rem;
     text-align: center;
@@ -2588,7 +3038,7 @@ input[type="__password"]::placeholder {
   margin-top: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__text {
     max-width: 57.3rem;
     text-align: center;
@@ -2597,7 +3047,7 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__img {
     display: none;
   }
@@ -2607,7 +3057,7 @@ input[type="__password"]::placeholder {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .the__best__audio2__img2x {
     width: 68.9rem;
     height: 30rem;
@@ -2619,7 +3069,7 @@ input[type="__password"]::placeholder {
   padding-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers {
     padding-top: 12rem;
   }
@@ -2641,7 +3091,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list:nth-child(1) {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2661,7 +3111,7 @@ input[type="__password"]::placeholder {
           flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list:nth-child(2) {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2679,7 +3129,7 @@ input[type="__password"]::placeholder {
   padding: 9.65rem 12.426rem 11.35rem 12.45rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__left1 {
     width: 100%;
     height: 35.2rem;
@@ -2692,7 +3142,7 @@ input[type="__password"]::placeholder {
   height: 35.0rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__left1__img1 {
     width: 20.22rem;
     height: 24.3rem;
@@ -2707,7 +3157,7 @@ input[type="__password"]::placeholder {
   padding: 8rem 13.623rem 9.5rem 13.75rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__left2 {
     width: 100%;
     height: 35.2rem;
@@ -2720,14 +3170,14 @@ input[type="__password"]::placeholder {
   height: 38.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__left2__img2 {
     width: 16.9rem;
     height: 24.3rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__right {
     width: 100%;
     margin-top: 5.2rem;
@@ -2743,7 +3193,7 @@ input[type="__password"]::placeholder {
   color: #D87D4A;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__right__text {
     text-align: center;
   }
@@ -2761,7 +3211,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__right__heading {
     text-align: center;
     margin-left: auto;
@@ -2780,7 +3230,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers__icon__list__right__paragraph {
     max-width: 57.2rem;
     text-align: center;
@@ -2793,7 +3243,7 @@ input[type="__password"]::placeholder {
   padding-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1 {
     padding-top: 12rem;
   }
@@ -2815,7 +3265,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2832,7 +3282,7 @@ input[type="__password"]::placeholder {
   padding: 7rem 5.5rem 10.9rem 6.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list__left1 {
     width: 100%;
     padding: 11rem 16.8rem 15rem 17.6rem;
@@ -2844,7 +3294,7 @@ input[type="__password"]::placeholder {
   height: 38.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list__left1__img1 {
     width: 34.5rem;
     height: 31.2rem;
@@ -2852,7 +3302,7 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list__right {
     margin-top: 5.2rem;
     width: 100%;
@@ -2881,7 +3331,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list__right__heading {
     margin-left: auto;
     margin-right: auto;
@@ -2899,7 +3349,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speaker1__icon__list__right__paragraph {
     max-width: 57.2rem;
     margin-left: auto;
@@ -2911,7 +3361,7 @@ input[type="__password"]::placeholder {
   margin-top: 7.9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones1__hero {
     margin-top: 3.3rem;
   }
@@ -2929,7 +3379,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 5.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones1__hero__link {
     margin-bottom: 2.4rem;
   }
@@ -2955,7 +3405,7 @@ input[type="__password"]::placeholder {
   padding: 6.55rem 9.58rem 10.85rem 9.488rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones1__hero__all__left {
     width: 28.1rem;
     height: 48rem;
@@ -2968,14 +3418,14 @@ input[type="__password"]::placeholder {
   height: 38.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones1__hero__all__left__img {
     width: 18.1rem;
     height: 20.1rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones1__hero__all__right {
     max-width: 33.5rem;
   }
@@ -3093,7 +3543,7 @@ input[type="__password"]::placeholder {
   margin-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features {
     margin-top: 12rem;
   }
@@ -3105,7 +3555,7 @@ input[type="__password"]::placeholder {
   display: flex;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3118,7 +3568,7 @@ input[type="__password"]::placeholder {
   margin-right: 12.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features__left {
     margin-right: 0;
   }
@@ -3144,7 +3594,7 @@ input[type="__password"]::placeholder {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features__left__text {
     font-weight: 500;
     font-size: 15px;
@@ -3153,7 +3603,7 @@ input[type="__password"]::placeholder {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features__right {
     margin-top: 12rem;
     display: -webkit-box;
@@ -3172,7 +3622,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .features__right__heading {
     margin-right: 20rem;
   }
@@ -3214,7 +3664,7 @@ input[type="__password"]::placeholder {
   margin-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .images {
     margin-top: 12rem;
   }
@@ -3246,7 +3696,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .images__left__top {
     width: 27.7rem;
     height: 17.4rem;
@@ -3260,7 +3710,7 @@ input[type="__password"]::placeholder {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .images__left__bottom {
     width: 27.7rem;
     height: 17.4rem;
@@ -3273,7 +3723,7 @@ input[type="__password"]::placeholder {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .images__right__img {
     width: 39.5rem;
     height: 36.8rem;
@@ -3284,7 +3734,7 @@ input[type="__password"]::placeholder {
   margin-top: 16rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .recommendation {
     margin-top: 12rem;
   }
@@ -3315,7 +3765,7 @@ input[type="__password"]::placeholder {
   max-width: 35rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .recommendation__icon__list {
     max-width: 22.3rem;
   }
@@ -3327,7 +3777,7 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 10.1rem 6.3rem 10.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .recommendation__icon__list__left {
     padding: 6.2rem 3.693rem 6.3rem 3.777rem;
   }
@@ -3344,7 +3794,7 @@ input[type="__password"]::placeholder {
   padding: 5.9rem 8rem 6rem 8rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .recommendation__icon__list__middle {
     padding: 5.9rem 1.585rem 6rem 1.634rem;
   }
@@ -3361,7 +3811,7 @@ input[type="__password"]::placeholder {
   padding: 7.3rem 10.3rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .recommendation__icon__list__right {
     padding: 7.3rem 3.982rem 7.3rem 4.006rem;
   }
@@ -3419,10 +3869,18 @@ input[type="__password"]::placeholder {
   margin-right: 13rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .modal__content {
     margin-top: 12rem;
     margin-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal__content {
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -3626,7 +4084,7 @@ input[type="__password"]::placeholder {
   margin-top: 7.9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones2__hero {
     margin-top: 3.3rem;
   }
@@ -3644,7 +4102,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 5.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones2__hero__link {
     margin-bottom: 2.4rem;
   }
@@ -3670,7 +4128,7 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 12.2rem 10.9rem 12.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones2__hero__all__left {
     width: 28.1rem;
     height: 48rem;
@@ -3683,14 +4141,14 @@ input[type="__password"]::placeholder {
   height: 38.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones2__hero__all__left__img {
     width: 14.8rem;
     height: 19.3rem;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones2__hero__all__right {
     max-width: 33.9rem;
   }
@@ -3798,7 +4256,7 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 8.7rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones--left {
     padding: 6.2rem 2.348rem 6.2rem 2.4rem;
   }
@@ -3813,7 +4271,7 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 8.3rem 10.9rem 8.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones3--left {
     padding: 14.1rem 4.895rem 14.6rem 4.7rem;
   }
@@ -3824,7 +4282,7 @@ input[type="__password"]::placeholder {
   height: 38.9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones3--img {
     width: 18.505rem;
     height: 19.3rem;
@@ -3839,7 +4297,7 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 10.1rem 6.3rem 10.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .headphones3--middle {
     padding: 6.2rem 3.693rem 6.3rem 3.777rem;
   }
@@ -3854,7 +4312,7 @@ input[type="__password"]::placeholder {
   padding: 10.15rem 12.426rem 10.85rem 12.45rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers1--hero--left {
     padding: 13.25rem 5.725rem 14.65rem 5.65rem;
   }
@@ -3865,7 +4323,7 @@ input[type="__password"]::placeholder {
   height: 35rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers1--hero--left--img {
     width: 16.726rem;
     height: 20.1rem;
@@ -3880,7 +4338,7 @@ input[type="__password"]::placeholder {
   padding: 6.3rem 10.851rem 6.4rem 10.853rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers1--left {
     padding: 6.4rem 4.503rem 6.3rem 4.5rem;
   }
@@ -3895,7 +4353,7 @@ input[type="__password"]::placeholder {
   padding: 5.9rem 7.9rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers1--right {
     padding: 5.9rem 1.585rem 6rem 1.634rem;
   }
@@ -3910,7 +4368,7 @@ input[type="__password"]::placeholder {
   padding: 6.6rem 13.598rem 10.9rem 13.6rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers2--hero--left {
     padding: 13.2rem 7.08rem 14.6rem 7rem;
   }
@@ -3921,7 +4379,7 @@ input[type="__password"]::placeholder {
   height: 38.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers2--hero--left--img {
     width: 14.062rem;
     height: 20.2rem;
@@ -3936,7 +4394,7 @@ input[type="__password"]::placeholder {
   padding: 7.3rem 10.382rem 7.3rem 10.306rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .speakers2--left {
     padding: 7.3rem 3.982rem 7.3rem 4.006rem;
   }
@@ -3951,7 +4409,7 @@ input[type="__password"]::placeholder {
   padding: 7rem 5.5rem 10.9rem 6.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones1--hero--left {
     padding: 9.5rem 7px 14.7rem 1.1rem;
   }
@@ -3962,7 +4420,7 @@ input[type="__password"]::placeholder {
   height: 38.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones1--hero--left--img {
     width: 26.3rem;
     height: 23.8rem;
@@ -3977,7 +4435,7 @@ input[type="__password"]::placeholder {
   padding: 6.2rem 10.093rem 6.3rem 10.077rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .earphones1--left {
     padding: 6.2rem 3.693rem 6.3rem 3.777rem;
   }
@@ -3993,7 +4451,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 14.1rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout {
     margin-top: 4.8rem;
     margin-bottom: 16.6rem;
@@ -4028,7 +4486,7 @@ input[type="__password"]::placeholder {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout__icon {
     margin-top: 2.4rem;
     -webkit-box-orient: vertical;
@@ -4059,7 +4517,7 @@ input[type="__password"]::placeholder {
   margin-bottom: 3.2rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout--icons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4081,7 +4539,7 @@ input[type="__password"]::placeholder {
   border-radius: 8px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout__all {
     max-width: 68.9rem;
     min-height: 10.84rem;
@@ -4116,7 +4574,7 @@ input[type="__password"]::placeholder {
   padding: 3.2rem 3.3rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout__all__right {
     margin-top: 3.2rem;
     width: 100%;
@@ -4156,7 +4614,7 @@ input[type="__password"]::placeholder {
   width: 20.4rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 75em) {
   .checkout__all__right__right {
     width: 100%;
     margin-left: 1.6rem;

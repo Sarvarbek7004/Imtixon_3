@@ -16,18 +16,18 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+// @mixin respond($breakpoint){
+// }
 @mixin respond($breakpoint){
   @if($breakpoint==phones){
-    @media only screen and (max-width:900px){
+    @media only screen and (max-width:75em){
+      @content;
+    }
+  };
+  @if($breakpoint==mobile__phones){
+    @media only screen and (max-width:600px){
       @content;
     }
   }
 }
-// @mixin respond($breakpoint){
-//   @if($breakpoint==mobile__phones){
-//     @media only screen and (max-width:600px){
-//       @content;
-//     }
-//   }
-// }
 
